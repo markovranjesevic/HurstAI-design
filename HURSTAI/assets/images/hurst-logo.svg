@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164" height="53.638" viewBox="0 0 164 53.638">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="654" height="207" viewBox="0 0 654 207">
   <defs>
     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#009ae1"/>
       <stop offset="1" stop-color="#009ae1" stop-opacity="0.651"/>
     </linearGradient>
   </defs>
-  <g id="Group_77" data-name="Group 77" transform="translate(0.002 0)">
-    <g id="Group_68" data-name="Group 68" transform="translate(0 0)">
-      <circle id="Ellipse_35" data-name="Ellipse 35" cx="7" cy="7" r="7" transform="translate(-0.002 0.355)" fill="url(#linear-gradient)"/>
-      <circle id="Ellipse_36" data-name="Ellipse 36" cx="7" cy="7" r="7" transform="translate(38.998 0.355)" fill="url(#linear-gradient)"/>
-      <path id="Path_62" data-name="Path 62" d="M7.315,34.135a7.313,7.313,0,0,0,7.315-7.314A12.023,12.023,0,0,1,15.7,21.84a12.221,12.221,0,0,1,1.372-2.334,12.485,12.485,0,0,1,2.438-2.438A12.221,12.221,0,0,1,21.84,15.7a12.023,12.023,0,0,1,4.98-1.067,7.314,7.314,0,1,0-7.314-7.314,12.023,12.023,0,0,1-1.067,4.98,12.221,12.221,0,0,1-1.372,2.334,12.485,12.485,0,0,1-2.438,2.438,12.221,12.221,0,0,1-2.334,1.372,12.023,12.023,0,0,1-4.98,1.067,7.314,7.314,0,1,0,0,14.629Z" transform="translate(0 -0.001)" fill="url(#linear-gradient)"/>
-      <path id="Path_63" data-name="Path 63" d="M21.84,47.7a12.024,12.024,0,0,1,4.98-1.067,7.314,7.314,0,1,0-7.314-7.314,12.023,12.023,0,0,1-1.067,4.98,12.222,12.222,0,0,1-1.372,2.334,12.485,12.485,0,0,1-2.438,2.438A12.222,12.222,0,0,1,12.3,50.439a12.023,12.023,0,0,1-4.98,1.067A7.314,7.314,0,1,0,14.63,58.82,12.023,12.023,0,0,1,15.7,53.84a12.221,12.221,0,0,1,1.372-2.334,12.485,12.485,0,0,1,2.438-2.438A12.222,12.222,0,0,1,21.84,47.7Z" transform="translate(-0.001 -12.496)" fill="url(#linear-gradient)"/>
-      <path id="Path_64" data-name="Path 64" d="M58.82,32a7.312,7.312,0,0,0-7.314,7.314,12.023,12.023,0,0,1-1.067,4.98,12.221,12.221,0,0,1-1.372,2.334,12.486,12.486,0,0,1-2.438,2.438A12.222,12.222,0,0,1,44.3,50.438a12.024,12.024,0,0,1-4.98,1.067,7.314,7.314,0,1,0,7.314,7.314A12.023,12.023,0,0,1,47.7,53.84a12.221,12.221,0,0,1,1.372-2.334,12.485,12.485,0,0,1,2.438-2.438A12.221,12.221,0,0,1,53.84,47.7a12.023,12.023,0,0,1,4.98-1.067A7.314,7.314,0,1,0,58.82,32Z" transform="translate(-12.496 -12.495)" fill="url(#linear-gradient)"/>
-      <circle id="Ellipse_37" data-name="Ellipse 37" cx="7" cy="7" r="7" transform="translate(38.998 39.355)" fill="url(#linear-gradient)"/>
+  <g id="Group_78" data-name="Group 78" transform="translate(-661 -437)">
+    <g id="Group_68" data-name="Group 68" transform="translate(11)">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="28" cy="28" r="28" transform="translate(650 437)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_36" data-name="Ellipse 36" cx="28" cy="28" r="28" transform="translate(801 437)" fill="url(#linear-gradient)"/>
+      <path id="Path_62" data-name="Path 62" d="M28.227,131.727A28.22,28.22,0,0,0,56.455,103.5a46.4,46.4,0,0,1,4.116-19.218,47.163,47.163,0,0,1,5.293-9.009,48.182,48.182,0,0,1,9.409-9.409,47.163,47.163,0,0,1,9.009-5.293A46.4,46.4,0,0,1,103.5,56.455,28.227,28.227,0,1,0,75.273,28.227a46.4,46.4,0,0,1-4.116,19.218,47.164,47.164,0,0,1-5.293,9.009,48.182,48.182,0,0,1-9.409,9.409,47.164,47.164,0,0,1-9.009,5.293,46.4,46.4,0,0,1-19.218,4.116,28.227,28.227,0,0,0,0,56.455Z" transform="translate(650 437)" fill="url(#linear-gradient)"/>
+      <path id="Path_63" data-name="Path 63" d="M84.282,92.571A46.4,46.4,0,0,1,103.5,88.455,28.227,28.227,0,1,0,75.273,60.227a46.4,46.4,0,0,1-4.116,19.218,47.164,47.164,0,0,1-5.293,9.009,48.182,48.182,0,0,1-9.409,9.409,47.164,47.164,0,0,1-9.009,5.293,46.4,46.4,0,0,1-19.218,4.116A28.227,28.227,0,1,0,56.455,135.5a46.4,46.4,0,0,1,4.116-19.218,47.163,47.163,0,0,1,5.293-9.009,48.182,48.182,0,0,1,9.409-9.409A47.163,47.163,0,0,1,84.282,92.571Z" transform="translate(650 480.272)" fill="url(#linear-gradient)"/>
+      <path id="Path_64" data-name="Path 64" d="M135.5,32a28.219,28.219,0,0,0-28.227,28.227,46.4,46.4,0,0,1-4.116,19.218,47.164,47.164,0,0,1-5.293,9.009,48.183,48.183,0,0,1-9.409,9.409,47.164,47.164,0,0,1-9.009,5.293,46.4,46.4,0,0,1-19.218,4.116A28.227,28.227,0,1,0,88.455,135.5a46.4,46.4,0,0,1,4.116-19.218,47.163,47.163,0,0,1,5.293-9.009,48.182,48.182,0,0,1,9.409-9.409,47.163,47.163,0,0,1,9.009-5.293A46.4,46.4,0,0,1,135.5,88.455,28.227,28.227,0,0,0,135.5,32Z" transform="translate(693.272 480.272)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_37" data-name="Ellipse 37" cx="28" cy="28" r="28" transform="translate(801 588)" fill="url(#linear-gradient)"/>
     </g>
-    <text id="HURSTAI" transform="translate(61.998 29.355)" font-size="22" font-family="JosefinSans-Light, Josefin Sans" font-weight="300" letter-spacing="0.1em"><tspan x="0" y="0">HURST</tspan><tspan y="0" font-family="JosefinSans-SemiBold, Josefin Sans" font-weight="600">AI</tspan></text>
-    <text id="SCREENING_LTD" data-name="SCREENING LTD" transform="translate(62.998 43.355)" font-size="7" font-family="JosefinSans-Light, Josefin Sans" font-weight="300" letter-spacing="0.49em"><tspan x="0" y="0">SCREENING LTD</tspan></text>
+    <g id="Group_77" data-name="Group 77">
+      <text id="HURSTAI" transform="translate(898 556)" font-size="90" font-family="JosefinSans-Light, Josefin Sans" font-weight="300" letter-spacing="0.105em"><tspan x="0" y="0">HURST</tspan><tspan y="0" font-family="JosefinSans-SemiBold, Josefin Sans" font-weight="600">AI</tspan></text>
+      <text id="SCREENING_LTD" data-name="SCREENING LTD" transform="translate(898 607)" font-size="30" font-family="JosefinSans-Light, Josefin Sans" font-weight="300" letter-spacing="0.53em"><tspan x="0" y="0">SCREENING LTD</tspan></text>
+    </g>
   </g>
 </svg>
