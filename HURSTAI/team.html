@@ -32,25 +32,25 @@
 
 
     <div class="team-members-container">
-    <section class="team-members">
-        <div class="team-member-1">
-            <img class="team-member-image" src="assets/images/team-member.jpg">
-            <h3>NAME SURNAME</h3>
-            <p>Job Description</p>
-        </div>
-        <div class="team-member-1">
-            <img class="team-member-image" src="assets/images/team-member.jpg">
-            <h3>NAME SURNAME</h3>
-            <p>Job Description</p>
-        </div>
-        <div class="team-member-1">
-            <img class="team-member-image" src="assets/images/team-member.jpg">
-            <h3>NAME SURNAME</h3>
-            <p>Job Description</p>
-        </div>
-    </section>
+        <section class="team-members">
+            <div class="team-member-1">
+                <img class="team-member-image" src="assets/images/team-member.jpg">
+                <h3>NAME SURNAME</h3>
+                <p>Job Description</p>
+            </div>
+            <div class="team-member-1">
+                <img class="team-member-image" src="assets/images/team-member.jpg">
+                <h3>NAME SURNAME</h3>
+                <p>Job Description</p>
+            </div>
+            <div class="team-member-1">
+                <img class="team-member-image" src="assets/images/team-member.jpg">
+                <h3>NAME SURNAME</h3>
+                <p>Job Description</p>
+            </div>
+        </section>
+    </div>
 </section>
-</div>
 
 
 <footer class="footer">
@@ -98,7 +98,8 @@
 
     <form class="footer-newsletter">
         <h1 class="footer-newsletter-title">SUBSCRIBE TO OUR NEWSLETTER</h1>
-        <p class="footer-newsletter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        <p class="footer-newsletter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
         <label class="footer-newsletter-field">
             <span class="footer-newsletter-field-span">Email</span>
             <input class="footer-newsletter-field-input" type="email">
@@ -107,6 +108,62 @@
     </form>
 </footer>
 
+<div id="member-info" onclick="hideProfileInfo()">
+    <h1>Ime</h1>
+    <p>Bla bla</p>
+</div>
 
+<script>
+    const members = Array.from(document.querySelector('.team-members').children);
+    let profilePhoto = null;
+    let profilePhotoIndex = 0;
+    let openedInfo = false;
+    members.forEach(member => {
+        member.onclick = () => openProfileInfo(member);
+    });
+
+    function openProfileInfo(member) {
+        if (openedInfo) {
+            hideProfileInfo();
+            return;
+        }
+
+        profilePhoto = member.querySelector('.team-member-image');
+        profilePhoto.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        setTimeout(() => {
+            openedInfo = true;
+            profilePhotoIndex = profilePhoto.style.zIndex;
+            profilePhoto.style.zIndex = '101';
+            profilePhoto.style.transform = 'scale(1.5)';
+
+            // 100 * Postotak zaslona
+            profilePhoto.style.left = window.innerWidth / 100 * 20 - profilePhoto.offsetLeft + 8 + 'px';
+            const profileInfo = document.getElementById('member-info');
+            profileInfo.style.opacity = '1';
+            profileInfo.style.zIndex = '100';
+            document.body.style.overflowY = 'hidden';
+        }, scrollTop);
+    }
+
+    function hideProfileInfo() {
+        openedInfo = false;
+        profilePhoto.style.transform = 'scale(1)';
+        const profileInfo = document.getElementById('member-info');
+        profileInfo.style.opacity = '0';
+        profileInfo.style.zIndex = '-1';
+
+        // 100 * Postotak zaslona
+        profilePhoto.style.left = window.innerWidth / 100 * 20 - profilePhoto.offsetLeft + 16 + 'px';
+        document.body.style.overflowY = 'scroll';
+        setTimeout(() => {
+            profilePhoto.style.zIndex = profilePhotoIndex;
+        }, 300);
+    }
+</script>
 </body>
 </html>

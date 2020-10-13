@@ -421,3 +421,22 @@ pre {
 .logo-contact {
     z-index: 1;
 }
+
+.team-member-image {
+    position: relative;
+    left: 0;
+    transition: .3s;
+}
+
+#member-info {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    /*background-color: rgba(100, 100, 100, .4);*/
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 90px);
+    z-index: -1;
+    opacity: 0;
+    transition: all .3s;
+}
