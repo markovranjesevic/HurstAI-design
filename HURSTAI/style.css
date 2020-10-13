@@ -338,6 +338,7 @@ pre {
     justify-content: center;
     padding: 40px 24px;
     background: white;
+    border: solid 1px black;
 }
 .footer-newsletter-title {
     font-family: "Josefin Sans", sans-serif;
