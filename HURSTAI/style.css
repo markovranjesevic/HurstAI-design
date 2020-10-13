@@ -440,3 +440,31 @@ pre {
     opacity: 0;
     transition: all .3s;
 }
+
+.member-info-heading {
+    position: absolute;
+    left: 800px;
+    top: 200px;
+}
+
+.member-info-text {
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    width: 600px;
+}
+
+.member-info-social{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 450px;
+}
+
+.member-info-facebook {
+    padding-right: 40px;
+}
+
+.member-info-twitter {
+    padding-right: 40px;
+}
