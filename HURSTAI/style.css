@@ -431,6 +431,9 @@ pre {
     z-index: 3;
 }
 
+.logo-contact{
+
+}
 
 .team-member-image {
     position: relative;
@@ -484,8 +487,7 @@ pre {
     align-items: center;
     justify-content: center;
     width: auto;
-    background-image: url("assets/images/logo-opacity.svg");
-    background-repeat: no-repeat;
+
 }
 
 .form{
