@@ -425,10 +425,10 @@ pre {
 
 
 .contact-info {
-    position: absolute;
-    top: 250px;
-    left: 500px;
-    z-index: 3;
+    border: 1px solid #000;
+    padding: 3rem;
+    flex: 1 1 auto;
+    max-width: 400px;
 }
 
 .logo-contact{
@@ -482,59 +482,41 @@ pre {
     padding-right: 40px;
 }
 
-.contact{
+.contact {
+    background-image: url("assets/images/logo-opacity.svg");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: -45% 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-
+    flex-wrap: wrap;
+    min-height: 100vh;
 }
 
-.form{
-    display: block;
-    margin-right: 0px;
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 3rem;
+    flex: 1 1 auto;
+    max-width: 400px;
 }
-.form-name-span{
+
+label {
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    display:flex;
+    flex-direction: column;
+}
+.form-span{
     font-family: "Gotham Light", sans-serif;
-    position: absolute;
-    top: 350px;
 }
-.form-name-input{
+
+.form-input{
     border:none;
     border-bottom:1px solid #757575;
-    position: absolute;
-    top: 380px;
 }
-input:focus 		{ outline:none; }
-
-.form-email-span{
-    font-family: "Gotham Light", sans-serif;
-    position: absolute;
-    top: 420px;
-}
-.form-email-input{
-    border:none;
-    border-bottom:1px solid #757575;
-    position: absolute;
-    top: 450px;
-}
-input:focus 		{ outline:none; }
-
-.form-message-span{
-    font-family: "Gotham Light", sans-serif;
-    position: absolute;
-    top: 490px;
-
-}
-
-.form-message-input{
-    border:none;
-    border-bottom:1px solid #757575;
-    position: absolute;
-    top: 600px;
-}
-
-input:focus 		{ outline:none; }
 
 .form-send-button{
     font-family: "Josefin Sans", sans-serif;
@@ -547,8 +529,6 @@ input:focus 		{ outline:none; }
     color: white;
     border: none;
     border-radius: 6px;
-    position: absolute;
-    top: 650px;
 }
 .form-go-back-button{
     font-family: "Josefin Sans", sans-serif;
@@ -559,9 +539,6 @@ input:focus 		{ outline:none; }
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    position: absolute;
-    top: 650px;
-    right: 550px;
 }
 
 .form-go-back-button:hover {
