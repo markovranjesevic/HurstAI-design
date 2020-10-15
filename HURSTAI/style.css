@@ -425,10 +425,10 @@ pre {
 
 
 .contact-info {
-    margin: 250px 500px;
-    width: 1700px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
     z-index: 3;
-
 }
 
 
@@ -483,40 +483,53 @@ pre {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: auto;
+    background-image: url("assets/images/logo-opacity.svg");
+    background-repeat: no-repeat;
 }
 
 .form{
     display: block;
-    margin-right: 500px;
+    margin-right: 0px;
 }
 .form-name-span{
     font-family: "Gotham Light", sans-serif;
-    padding: 20px 0 20px 0;
+    position: absolute;
+    top: 350px;
 }
 .form-name-input{
     border:none;
     border-bottom:1px solid #757575;
+    position: absolute;
+    top: 380px;
 }
 input:focus 		{ outline:none; }
 
 .form-email-span{
     font-family: "Gotham Light", sans-serif;
-    padding: 20px 0 20px 0;
+    position: absolute;
+    top: 420px;
 }
 .form-email-input{
     border:none;
     border-bottom:1px solid #757575;
+    position: absolute;
+    top: 450px;
 }
 input:focus 		{ outline:none; }
 
 .form-message-span{
     font-family: "Gotham Light", sans-serif;
+    position: absolute;
+    top: 490px;
 
 }
 
 .form-message-input{
     border:none;
     border-bottom:1px solid #757575;
+    position: absolute;
+    top: 600px;
 }
 
 input:focus 		{ outline:none; }
@@ -526,20 +539,33 @@ input:focus 		{ outline:none; }
     width: 150px;
     height: 50px;
     background: #06415C;
-    padding: 16px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
     color: white;
     border: none;
     border-radius: 6px;
-    padding: 20px 0 20px 0;
+    position: absolute;
+    top: 650px;
 }
 .form-go-back-button{
     font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
-    width: 150px;
-    height: 50px;
-    background: white;
-    padding: 16px;
-    color: black;
     border: none;
-    padding: 20px 0 20px 0;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    right: 550px;
+}
+
+.form-go-back-button:hover {
+    background: #eee;
+}
+
+.form-buttons {
+    display: flex;
 }
